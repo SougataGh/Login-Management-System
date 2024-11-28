@@ -1,3 +1,22 @@
+# Login Management System
+
+## Overview
+This project is a **Login Management System** built using **Python** and **MySQL**. It provides a simple way to register, log in, update information, and delete user accounts. The system also allows admin users to manage all users, including viewing, deleting, and updating user information.
+
+## Features
+- **User Registration**: Allows new users to register with a username and password.
+- **User Login**: Verifies user credentials for secure login.
+- **Update User Information**: Enables users to update their password.
+- **Delete User**: Provides functionality to delete a user from the system.
+- **Show User Information**: Displays user information like username and password.
+- **Show All Users**: Admins can view all registered users in the system.
+- **Admin Management**: Admins can update user information and delete users.
+
+## Technologies Used
+- **Python**: Programming language used to implement the system logic.
+- **MySQL**: Database used to store user information (username and password).
+- **mysql-connector-python**: Python MySQL driver used to interact with the MySQL database.
+
 ## Structure
 - **Db_Helper.py**: Connects to MySQL and executes queries related to database operations.
 - **Register.py**: Handles user registration by inserting new users into the database.
