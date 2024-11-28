@@ -26,6 +26,7 @@ This project is a **Login Management System** built using **Python** and **MySQL
   - **Update_Info**: Allows users to update their password and other information.
   - **Show_User_Info.**: Displays user details (e.g., username and password) for the logged-in user.
 - **Admin_Facilities :**
+  - **Login**: Manages Admin login by verifying the credentials against the database.
   - **Delete_User**: Provides the functionality to delete a user from the system.
   - **Show_All_Users**: Allows admins to view all registered users in the system.
 - **Admin_and_User :**
