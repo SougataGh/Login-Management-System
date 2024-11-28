@@ -18,15 +18,19 @@ This project is a **Login Management System** built using **Python** and **MySQL
 - **mysql-connector-python**: Python MySQL driver used to interact with the MySQL database.
 
 ## Structure
-- **Db_Helper.py**: Connects to MySQL and executes queries related to database operations.
-- **Register.py**: Handles user registration by inserting new users into the database.
-- **Login.py**: Manages user login by verifying the credentials against the database.
-- **Update_Info.py**: Allows users to update their password and other information.
-- **Show_User_Info.py**: Displays user details (e.g., username and password) for the logged-in user.
-- **Delete_User.py**: Provides the functionality to delete a user from the system.
-- **Show_All_Users.py**: Allows admins to view all registered users in the system.
-- **User.py**: Implements user functionalities like registration, login, and updating information.
-- **Admin.py**: Implements admin functionalities such as managing users (deleting and updating).
-- **Main.py**: The entry point of the application to interact with the system.
-- **requirements.txt**: Lists the required dependencies and libraries for the project.
+- **Database_Helper :**
+  - **Db_Helper**: Connects to MySQL and executes queries related to database operations.
+- **User_Facilities :**
+  - **Register**: Handles user registration by inserting new users into the database.
+  - **Login**: Manages user login by verifying the credentials against the database.
+  - **Update_Info**: Allows users to update their password and other information.
+  - **Show_User_Info.**: Displays user details (e.g., username and password) for the logged-in user.
+- **Admin_Facilities :**
+  - **Delete_User**: Provides the functionality to delete a user from the system.
+  - **Show_All_Users**: Allows admins to view all registered users in the system.
+- **Admin_and_User :**
+  - **User**: Implements user functionalities like registration, login, and updating information.
+  - **Admin**: Implements admin functionalities such as managing users (deleting and updating).
+- **App :**
+  - **Main**: The entry point of the application to interact with the system.
 - **README.md**: Documentation file providing an overview of the project, features, technologies used, and setup instructions.
