@@ -33,4 +33,6 @@ This project is a **Login Management System** built using **Python** and **MySQL
   - **Admin**: Implements admin functionalities such as managing users (deleting and updating).
 - **App :**
   - **Main**: The entry point of the application to interact with the system.
+- **Database :**
+  - **create_database**: Creates a database and creates the User and Admin table inside it using mySQL.
 - **README.md**: Documentation file providing an overview of the project, features, technologies used, and setup instructions.
