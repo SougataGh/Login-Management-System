@@ -1,6 +1,6 @@
-from Functions.Update_Info import Update_Info
-from Functions.Delete_User import Delete_User
-from Functions.Show_All_Users import Show_All_Users
+from Admin_Facilities.Update_Info import Update_Info
+from Admin_Facilities.Delete_User import Delete_User
+from Admin_Facilities.Show_All_Users import Show_All_Users
 
 class Admin:
     def __init__(self):
