@@ -1,7 +1,7 @@
-from Admin_Facilities.Register import Register
-from Admin_Facilities.Login import Login
-from Admin_Facilities.Update_Info import Update_Info
-from Admin_Facilities.Show_User_Info import Show_User_Info
+from User_Facilities.Register import Register
+from User_Facilities.Login import Login
+from User_Facilities.Update_Info import Update_Info
+from User_Facilities.Show_User_Info import Show_User_Info
 
 class User:
     def __init__(self, username, password=None, email=None, new_password=None, new_email=None):
