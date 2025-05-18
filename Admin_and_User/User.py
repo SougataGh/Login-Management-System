@@ -1,7 +1,7 @@
-from Register import Register
-from Login import Login
-from Update_Info import Update_Info
-from Show_User_Info import Show_User_Info
+from Functions.Register import Register
+from Functions.Login import Login
+from Functions.Update_Info import Update_Info
+from Functions.Show_User_Info import Show_User_Info
 
 class User:
     def __init__(self, username, password=None, email=None, new_password=None, new_email=None):
